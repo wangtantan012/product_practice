@@ -1,0 +1,90 @@
+main {
+  width: 100%;
+  max-width: 1296px;
+  margin: auto;
+}
+main .product-list-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 0px 2.5%;
+  margin-bottom: 50px;
+  border: 2px solid rgb(230, 233, 232);
+}
+main .product-list-container .title {
+  width: 100%;
+  height: 60px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: start;
+  line-height: 60px;
+  border-bottom: 1px solid rgb(230, 233, 232);
+}
+main .product-list-container .product-area {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+main .product-list-container .product-area .product-specification {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .product-list-container .product-area .product-specification .product-pic {
+  width: 110px;
+  height: 130px;
+  background-color: aqua;
+}
+main .product-list-container .product-area .product-specification .product-pic img {
+  width: 100%;
+}
+main .product-list-container .product-area .product-specification .product-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+main .product-list-container .product-area .product-specification .product-content .product-name {
+  font-weight: 600;
+}
+main .product-list-container .product-area .product-specification .product-content .product-weight {
+  font-size: 0.9rem;
+  color: gray;
+}
+main .product-list-container .product-area .product-detail {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .product-list-container .product-area .product-detail .count-area {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+main .product-list-container .product-area .product-detail .count-area .count {
+  color: gray;
+}
+main .product-list-container .total-area {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid rgb(230, 233, 232);
+}
+main .product-list-container .total-area span {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+main .price {
+  font-weight: 600;
+}/*# sourceMappingURL=shopcart.css.map */

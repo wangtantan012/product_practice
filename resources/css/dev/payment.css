@@ -1,0 +1,74 @@
+.payment-container {
+  width: 100%;
+  max-width: 1296px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.payment-container .payment-icon {
+  width: 20px;
+  height: 20px;
+}
+.payment-container .payment-icon img {
+  width: 100%;
+}
+.payment-container span {
+  font-weight: 600;
+}
+
+.input-container {
+  width: 100%;
+  max-width: 1296px;
+  margin: auto;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  border: 2px solid rgb(230, 233, 232);
+}
+.input-container input {
+  width: 15px;
+  height: 15px;
+}
+.input-container input[type=radio] {
+  font-weight: 600;
+  margin: 4px;
+}
+.input-container .span-container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.input-container .span-container span {
+  color: gray;
+  font-size: 0.9rem;
+}
+
+.decorate {
+  width: 100%;
+  max-width: 1296px;
+  height: 1px;
+  background-color: gray;
+  margin: 20px auto;
+}
+
+.page-btn-container {
+  width: 100%;
+  max-width: 1296px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.page-btn-container .btn {
+  font-weight: 600;
+  padding: 14px 28px;
+  border: 1px solid rgb(230, 233, 232);
+  margin: 0px 20px;
+}/*# sourceMappingURL=payment.css.map */
