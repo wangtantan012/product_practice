@@ -384,7 +384,7 @@
 
                 <div class="topIcon d-flex align-items-center mx-5">
                     <i class="fa-sharp fa-light fa-heart fa-lg mx-2 d-none d-lg-block " style="color: #5c6c75;"></i>
-                    <a href="{{ route('type.index') }}">
+                    <a href="{{ route('user.inform') }}">
                         <i class="fa-sharp fa-light fa-user-large fa-lg mx-2" style="color: #5c6c75;"></i>
                     </a>
                     <a href="">
